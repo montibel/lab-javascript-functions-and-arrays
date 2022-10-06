@@ -6,31 +6,36 @@ function maxOfTwoNumbers(number1, number2) {
   } else {
     return number2;
   }
-  }
-
-
-
+}
 
 // Iteration #2: Find longest word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
-function findLongestWord() {}
+function findLongestWord(constwords) {
+  let longestword = [''];
+  if(constwords.length === 0){
+    return null;
+  }
+}
+
 
 
 
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
-function sumNumbers() {}
-
-
+function sumNumbers(numbersArr) {
+let totalsum = 0;
+for (let i=0; i< numbersArr.length; i++){
+    totalsum += numbersArr[i];
+  }
+ return totalsum;
+}
 
 // Iteration #3.1 Bonus:
-function sum() {}
-
-
 
 // Iteration #4: Calculate the average
+
 // Level 1: Array of numbers
 const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
 
